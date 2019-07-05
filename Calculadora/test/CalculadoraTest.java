@@ -40,6 +40,7 @@ public class CalculadoraTest {
     public void testsuma() {
         int resultado = Calculadora.suma(3, 2);
         int esperado = 5;
+        System.out.println("El resultado es correcto");
         assertEquals(esperado,resultado);
              
               
